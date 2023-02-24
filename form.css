@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+/* Use of Position Concept */
+.fixed-header{
+    padding: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: medium;
+    background-color: aqua;
+    margin-bottom: 2px;
+    position: fixed;
+}
+.container{
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 80px;
+}
+/* Use of concept Float */
+.button-container{
+    text-align: center;
+    padding: 10px;
+    float: right;
+}
+
+.button{
+     margin: 20px;
+     padding-left: 80px;
+     padding-right: 80px;
+ }
+
+ .table-style{
+    /* margin-left: auto;  */
+    margin-right: auto;
+ }
+/* Visibility Concept */
+ .level-1, .level-2{
+    visibility: hidden;
+ }
+ /* Display Concept */
+ .display-learn{
+    display: inline;
+ }
